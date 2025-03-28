@@ -1,10 +1,17 @@
-print("Hello, dear World!")
+def greet():
+    print("Hello, dear World!")
+    print("End of the greet function")
+
+greet()
+
+#some other
+greet()
 
 # some other code
 print("Other code1")
-print("Hello World!")
+greet()
 
 #some other code
 print("Other code2")
-print("Hello, World!")
+greet()
 
